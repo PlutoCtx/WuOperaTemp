@@ -34,12 +34,32 @@ input,button,table,tr,td,textarea{ font-family:Microsoft yahei,Arial;}
 .w1200{ width: 1200px; margin: 0 auto; }
 
 
-.fixtop{height: 90px; position: fixed; left: 0; right: 0; top: 0; z-index: 333; padding: 0 30px; transition: all 0.6s; }
-.fixtop .logo img{ margin-top: 10px; display: block;}
-.fixtop .logo1{ display: block;}
-.fixtop .logo2{ display: none;}
-.fixtop.on .logo2{ display: block}
-.fixtop.on .logo1{display: none;}
+.fixtop{
+	height: 90px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 333;
+	padding: 0 30px;
+	transition: all 0.6s;
+}
+.fixtop .logo img{
+	margin-top: 10px;
+	display: block;
+}
+.fixtop .logo1{
+	display: block;
+}
+.fixtop .logo2{
+	display: none;
+}
+.fixtop.on .logo2{
+	display: block
+}
+.fixtop.on .logo1{
+	display: none;
+}
 .fixtop.active{ background: #fff; border-bottom: 1px solid #E0E0E0;}
 .fixtop.active .tel h3{ color: #000;}
 .fixtop.active .tel .img2{ display: inline-block;}
@@ -70,7 +90,11 @@ input,button,table,tr,td,textarea{ font-family:Microsoft yahei,Arial;}
 .barwrap.active span{ color: #000;}
 
 .subnav{ position: fixed; top: 0;  right: 0; bottom: 0; background: #dab96a; z-index: 3333; width: 240px; margin-right: -240px; transition: all 0.6s; padding: 50px 0; }
-.subnav .logo img{ display: block; width: 135px; margin: 20px auto;}
+.subnav .logo img{
+	display: block;
+	width: 135px;
+	margin: 20px auto;
+}
 .subnav li a{ display: block; color: #fff;  padding: 15px 0;}
 .subnav li>a{ display: block; font-weight: bold; font-size: 18px;  text-align: center; }
 .subnav li dl { display: none;}
@@ -287,7 +311,10 @@ padding-left: 50px; margin-right: 50px;}
 /*子页面*/
 header{height: 95px;  width: 100%;  box-sizing: border-box;  border-bottom: 1px solid #d8d8d8; }
 header .w1300{position: relative;}
-header .logo img{margin-top: 18px; display: block;}
+header .logo img{
+	margin-top: 18px;
+	display: block;
+}
 .nav{width: 70%;}
 .nav li{width: 12.5%; float: left; line-height: 95px;  text-align: center; font-size: 14px;}
 .nav li a{color: #242424 ; }
