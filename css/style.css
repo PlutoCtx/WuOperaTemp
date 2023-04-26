@@ -3,6 +3,11 @@ body,html{ min-width: 1024px; overflow-x: hidden;}
 *{ margin:0; padding:0;}
 body,p,h1,h2,h3,h4,h5,table,ul,li,form,input{ margin:0; padding:0; color:#000; font-family:"Microsoft yahei"; }
 
+.li .a .em .img{
+	width: 169px;
+	height: 72px;
+}
+
 body,p{ font-size:14px; border:none;}
 a{ font-size:14px; color:#999; text-decoration:none; border:none; padding:0; margin:0;}
 table{border-collapse:collapse;}
