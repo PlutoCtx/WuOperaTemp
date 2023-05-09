@@ -4,6 +4,13 @@
     list-style: none;
     box-sizing: border-box;
 }
+.fs{
+    font-size: 20px;
+    color: #df4b4b;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 /*body{*/
 /*    background: #f2f2f2;*/
 /*}*/
@@ -38,7 +45,7 @@ img{
     height: 60px;
     line-height: 60px;
     background: #2567b6;
-    background: linear-gradient(to right, #df4b4b, #ffd2d2);
+    background: linear-gradient(to right, #d9865a, #dcc0ab);
     margin-bottom: 20px;
 }
 .title{
@@ -98,7 +105,7 @@ img{
     height: 40px;
     line-height: 40px;
     color: #fff;
-    background: #df4b4b;
+    background: #d9865a;
     border-radius: 12px 12px 0 0;
 }
 .content{
